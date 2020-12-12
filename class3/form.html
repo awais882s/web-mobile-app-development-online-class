@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Forms</title>
+  </head>
+  <body>
+    <form>
+      <p>
+        Username:
+        <input type="number" name="Username" size="15" maxlength="30" />
+      </p>
+      <label>Feedback:</label><br />
+      <textarea
+        name="comments"
+        cols="10"
+        rows="4"
+        title="enter your feedback"
+        placeholder="TYPE YOUR FEEDBACK"
+      ></textarea>
+      <p>Gender:</p>
+      Male:<input type="radio" name="Gender" value="male" id="" /> female:<input
+        type="radio"
+        name="Gender"
+        value="female"
+        id=""
+      />
+      others:<input type="radio" name="Gender" value="other" id="" />
+      <p>select your city:</p>
+      apple:<input type="checkbox" value="apple" name="answer" id="" /><br />
+      bnnana:<input type="checkbox" value="bnnana" name="answer" id="" /><br />
+      orange:<input type="checkbox" value="orange" name="answer" id="" /><br />
+      mango:<input type="checkbox" value="mango" name="answer" id="" /><br />
+    <p> Select Your Country:<br>
+      <select name="Country" multiple="multiple">
+        <option value="pakistan">pakistan</option>
+        <option value="america">america</option>
+        <option value="india">india</option>
+        <option selected value="iran">iran</option>
+
+      </select>
+    </p>
+    <p>
+      Upload your file:
+      <input type="file">
+    </p>
+    <p>
+      submit your response:<br>
+      <input type="submit" value="submit">
+    </p>
+    <fieldset>
+      <legend>Personal Details:</legend>
+    <label for="email">Email:</label>
+    <input type="email" id="email" maxlength="20" placeholder="type your email">
+    <label for="password">Password:</label>
+    <input type="password" placeholder="type your password" id="password" required >
+  </fieldset>
+  <fieldset>
+    <legend>Contact Details:</legend>
+    <label for="number">your Number:</label>
+    <input type="number" placeholder="type your number" id="number" required >
+  </fieldset>
+    </form>
+  </body>
+</html>
