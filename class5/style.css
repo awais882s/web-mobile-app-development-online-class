@@ -1,0 +1,21 @@
+h1{
+  color: blueviolet;
+  font-family: 'Langar', cursive;
+  font-weight: bolder;
+  font-style: italic;
+  font-size:72px;
+  text-decoration:overline;
+
+}
+#para1{
+  text-transform:capitalize;
+  line-height:50px;
+  word-spacing: 30px;
+  letter-spacing: 10px;
+}
+h2{
+  text-align:center;
+}
+#para{
+  text-indent:20%;
+}
